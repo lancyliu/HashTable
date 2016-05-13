@@ -25,14 +25,19 @@ For debugging: you can use VS2008 open this project.
   
 int HashFunction(const int& e, int index) const;  
 // This function implement different hash function in this hash table
+
 bool Insert(const int& e,int index);  
 //Insert an element in this hash table.
+
 bool Find(const int& e,int index) const;
 //Find an element in this hash table
+
 bool Delete(const int& e,int index);
 //delete an element in this hash table
+
 int Count() const;  
 // count the number of elements in this hashtable
+
 void printTable(std::string filename);
 //print elements in the hash table, show the result in a .txt file. Use this function we can check which element were failed to insert to the hash table.
 
