@@ -1,5 +1,6 @@
 # HashTable
-Implementation of several kind of hash table and test their performance. Developed by Visual Studio 2008. 
+Implementation of several kind of hash table and test their performance. 
+Developed by Visual Studio 2008. 
 This file includes two project. 
 file /ChainingHash : This hash table use linked list to solve the collisiin problem. 
 file /OpenAddress:  This hash table use open addressing to solve the collision problem.
