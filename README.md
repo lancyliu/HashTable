@@ -1,9 +1,11 @@
 # HashTable
 Implementation of several kind of hash table and test their performance.
 
-Developed by Visual Studio 2008. 
+Developed by Visual Studio 2008 in Windows 8. 
 
-This file includes two project. 
+In this document only contains the source code(.h and .cpp file)
+
+This file includes two kinds of hash table. 
 
 ChainingHash : This hash table use linked list to solve the collisiin problem. 
 
@@ -15,17 +17,8 @@ There three hash functions used in this two hash table:
 2. middle square function
 3. fibonacci function
 
-For debugging: you can use VS2008 open this project.
-
-            Or you can copy the file 1. \ChainingHash\ChainingHash\HashTable.h, 
-                                       \ChainingHash\ChainingHash\HashTable.cpp,
-                                       \ChainingHash\ChainingHash\ChainingHash.cpp
-                                     2.\OpenAddress\OpenAddress\HashTable.h,
-                                       \OpenAddress\OpenAddress\HashTable.cpp.
-                                       \OpenAddress\OpenAddress\OpenAddress.cpp
-            This file includes all the code to implement the hash table.
             
-  For different IDE, may need some modification.
+For different IDE and OS, may need some modification.
  
  The structure of the project:
   Using class structure to implement the hash table. 
